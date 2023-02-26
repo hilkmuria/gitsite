@@ -1,15 +1,14 @@
-"""def square(x):
-    return x*x
+import string
 
+metin = "cats AND*Dogs-are Awesome?"
 
-kare=[square(i) for i in range(1,11)]
-tek_kare=[a for a in kare if a%2!=0]
-print(kare)
-print(tek_kare)"""
-giriss= [[1, 2], [3, 4], [5, 6, 7]]
+yeniMetin = ""
+for i in metin:
+    if i not in string.punctuation:
+        yeniMetin += i
+yeniMetin1=yeniMetin.capitalize()
+yeniMetin1=yeniMetin1.replace(" ","")
+#print(yeniMetin1)
 
-def terse(liste):
-    liste=liste[::-1]
-    liste=[i[::-1] for i in liste]
-    return liste
-print(terse(giriss))
+a=["a,c,c","v,f,f,s"]
+print(len(a))

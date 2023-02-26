@@ -1,0 +1,26 @@
+# Bu yazı Betül Kara tarafından Miuul sitesinde yazılmıştır. Kursa devam edebilmek için bu makaleyi buraya yazıyorum.
+
+
+Yapay sinir ağları
+
+
+Makine öğrenmesi sınıflandırma uygulamaları kapsamında incelenebilen yapay sinir ağları (YSA), insan beyninin özelliklerinden esinlenerek öğrenilen bilgiler ışığında yeni bilgiler oluşturabilme ve keşfetme yetenekleri sağlayarak bunları kendi kendine yapabilmesi amacıyla geliştirilen bilgisayar sistemleridir. YSA normal programlama tekniği ile çözülmesi imkansız olan problemleri çözmeyi mümkün hale getirir.
+
+YSA’nın genel özellikleri şöyledir:
+
+YSA makine öğrenmesi gerçekleştirir. 
+Bilgileri saklar ve örnekler ile öğrenebilir. 
+Eğitimde verilen bilgiler sayesinde görülmemiş örnekler hakkında da bilgi üretebilir.
+ 
+
+Yapay sinir hücresi
+Yapay sinir ağları yapay sinir hücrelerinden oluşur ve bu hücrelere proses elemanı denir. Prosesler beş elemandan oluşur. Girdiler, ağırlıklar, toplama fonksiyonu, aktivasyon fonksiyonu ve çıktısıdır.
+
+ 
+
+Yapay sinir ağı yapısı
+Yapay sinir hücreleri bir araya gelerek yapay sinir ağlarını oluştururlar. Ağ yapısı; girdi katmanı, ara katmanlar ve çıktı katmanından oluşur.
+
+YSA da bir girdi ve bir çıktı seti bulunur. Eğitilmek istenen YSA ya öğretilecek bilgi bir vektör haline çevrilerek verilir. Doğru çıktıyı üretecek şekilde sistem parametreleri ayarlanır.
+
+YSA da öğrenme 2 aşamada yapılır. İlk aşamada sistem eğitilirken üretilecek çıktı değerleri verilir. Çıktı değerinin doğruluğuna göre ağın bağlantılarının ağırlıkları değiştirilir. Ağın eğitimi bittikten sonra sistemin performansını ölçmek için test verisi sisteme sunulur. Test aşamasında ağırlık değerlerinde herhangi bir değişiklik yapılmaz eğitimde kullanılan ağırlıklar kullanılır ve bu karşılaşmadığı test verileri için çıktılar üretir. Elde edilen çıktıların doğruluk değerlerine göre sistemin performansı değerlendirilir.
